@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
   <title>Landing Page</title>
 </head>
 
@@ -13,24 +14,24 @@
   <script type="module" src="/main.js"></script>
 
   <nav>
-    <img src="images/Logo.png" class="logo" alt="company logo">
-    <button class="features">Features</button>
-    <button class="about">About us</button>
-    <button class="blog">Blog</button>
-    <button class="log-in">Log in</button>
+    <img src="images/Logo.png" class="logo-nav" alt="company logo">
+    <a class="features">Features</a>
+    <a class="about">About us</a>
+    <a class="blog">Blog</a>
+    <a class="log-in">Log in</a>
   </nav>
 
   <section class="intro">
     <h1>A powerful solution to grow your startup. Fast!</h1>
     <p>Organise, collaborate, and track progress seamlessly with our one-stop-shop startup growth tool.</p>
-    <button class="start">Start</button>
-    <button class="demo"> <img src="images/demo.png" class="icon-camera" alt="icon camera"> Book a demo</button>
+    <a class="start">Start</a>
+    <a class="demo"> <img src="images/demo.png" class="icon-camera" alt="icon camera"> Book a demo</a>
   </section>
 
   <section class="video">
     <h2>See how it works and get started in less than 2 minutes</h2>
-    <img src="images/" alt="">
-    <button class="get-started">Get started</button>
+    <!-- <img src="images/" alt=""> -->
+    <a class="get-started">Get started</a>
   </section>
 
   <section class="testimonials">
@@ -45,10 +46,10 @@
     <h2>Pricing</h2>
     <p>Start free and scale while you grow. No hidden fees. Unlimited users for free.</p>
     <div class="pricing-simple">
-      <button class="get-started">Get started</button>
+      <a class="get-started">Get started</a>
     </div>
     <div class="pricing-premium">
-      <button class="get-started">Get started</button>
+      <a class="get-started">Get started</a>
     </div>
     <p>All prices are in USD and charged per month with applicable taxes added at checkout.</p>
     <button class="features">View features</button>
@@ -63,7 +64,43 @@
     </div>
   </section>
 
-  <footer></footer>
+  <footer>
+    <img src="images/Logo.png" class="logo-footer" alt="company logo">
+    <div class="newsletter">
+      <h3>Subscribe to newsletter</h3>
+      <p>Subscribe now to receive tips on how to take your business to the next level.</p>
+      <input type="text">
+      <button class="btn-subscribe">Subscribe</button>
+    </div>
+
+    <div class="socials">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+
+    <div class="company">
+      <h4>Company</h4>
+      <a class="about-company" href="">About</a>
+      <a class="process-company" href="">Our process</a>
+      <a class="join-company" href="">Join our team</a>
+    </div>
+    <div class="resources">
+      <h4> Resources</h4>
+      <a class="res-news" href="">News</a>
+      <a class="res-research" href="">Research</a>
+      <a class="res-projects" href="">Recent projects</a>
+
+    </div>
+    <div class="contact">
+      <h4>Contact</h4>
+      <p>hello@growthapp.com</p>
+    </div>
+
+    <div class="arr">
+      <p>© 2023 Growth. All rights reserved</p>
+    </div>
+
+
+  </footer>
 
 </body>
 
