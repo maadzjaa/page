@@ -18,6 +18,7 @@ body {
 }
 .nav .nav-logo {
   padding: 20px 10px;
+  margin-left: 7vw;
 }
 .nav .nav-list {
   min-width: 400px;
@@ -31,6 +32,7 @@ body {
           align-items: center;
   list-style-type: none;
   padding: 20px 10px;
+  margin-right: 7vw;
 }
 .nav .log-in {
   background-color: var(--gray-color);
@@ -57,5 +59,53 @@ body {
   background-image: url(/images/background.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+.hero-section .hero-text {
   position: relative;
+  top: 2vh;
+  left: 7vw;
+}
+.hero-section .hero-text h1 {
+  font-size: 3.7rem;
+  max-width: 60vw;
+  font-weight: 550;
+}
+.hero-section .hero-text p {
+  font-size: 1.1rem;
+  max-width: 40vw;
+}
+.hero-section .hero-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 7vw;
+  margin-top: 30px;
+  max-width: 40vw;
+  font-weight: 500;
+}
+.hero-section .hero-btns .start {
+  background-color: var(--blue-color);
+  color: #fff;
+  padding: 20px 40px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.hero-section .hero-btns .start:hover {
+  background-color: var(--gray-color);
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.hero-section .hero-btns .demo {
+  background-color: var(--gray-color);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+.hero-section .hero-btns .demo:hover {
+  background-color: var(--blue-color);
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }/*# sourceMappingURL=styles.css.map */
