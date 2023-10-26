@@ -49,4 +49,13 @@ body {
   cursor: pointer;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }/*# sourceMappingURL=styles.css.map */
