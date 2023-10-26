@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Landing Page</title>
 </head>
@@ -16,12 +17,20 @@
 <body>
   <script type="module" src="/main.js"></script>
 
-  <nav>
-    <img src="images/Logo.png" class="logo-nav" alt="company logo">
-    <a class="features">Features</a>
-    <a class="about">About us</a>
-    <a class="blog">Blog</a>
-    <a class="log-in">Log in</a>
+  <nav class="nav">
+    <div class="nav-logo">
+      <a href="#">
+        <img src="images/Logo.png" alt="company logo">
+      </a>
+    </div>
+
+    <ul class="nav-list">
+      <li><a class="nav-list-item">Pricing</a></li>
+      <li><a class="nav-list-item">About us</a></li>
+      <li><a class="nav-list-item">Blog</a></li>
+      <li><a class="nav-list-item log-in">Log in</a></li>
+    </ul>
+
   </nav>
 
   <section class="intro">
