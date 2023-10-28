@@ -187,6 +187,7 @@ body {
   }
   .hero-section .hero-text h1 {
     font-size: 3.6rem;
+    font-weight: 500;
     min-width: 75vw;
   }
   .hero-section .hero-text p {
@@ -209,8 +210,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
     min-width: 90vw;
-    font-weight: 600;
     border-radius: 16px;
+    font-weight: 500;
     line-height: 150%;
     font-size: 1.6rem;
   }
