@@ -252,10 +252,11 @@ body {
   gap: 24px;
   padding-top: 64px;
 }
-.pricing .pricing-options .prices {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.pricing .pricing-options .gray-line {
+  background-color: gray;
+  height: 0.005vh;
+  border-radius: 15px;
+  margin-bottom: 32px;
 }
 .pricing .pricing-options .price {
   padding: 56px;

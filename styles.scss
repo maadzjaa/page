@@ -237,8 +237,11 @@ body {
 		gap: 24px;
 		padding-top: 64px;
 
-		.prices {
-			display: flex;
+		.gray-line {
+			background-color: gray;
+			height: 0.005vh;
+			border-radius: 15px;
+			margin-bottom: 32px;
 		}
 
 		.price {
