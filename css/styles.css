@@ -320,6 +320,20 @@ body {
   font-size: 1.2rem;
   padding-right: 5px;
 }
+.pricing .get-started {
+  background-color: var(--blue-color);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+.pricing .get-started:hover {
+  background-color: #2b7cf6;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
 
 .nav-toggle-btn {
   display: none;
