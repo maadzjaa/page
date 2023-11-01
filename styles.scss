@@ -281,6 +281,10 @@ body {
 					font-weight: 500;
 				}
 			}
+
+			.extras {
+				margin-bottom: 10px;
+			}
 		}
 
 		.simple {
@@ -292,6 +296,17 @@ body {
 			background-color: var(--black-color);
 			color: var(--white-color);
 			max-width: 400px;
+		}
+	}
+
+	.attributes {
+		line-height: 160%;
+
+		p {
+			margin-bottom: 10px;
+		}
+		li {
+			list-style-type: none;
 		}
 	}
 }

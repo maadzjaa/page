@@ -294,6 +294,9 @@ body {
 .pricing .pricing-options .price .prices h4 {
   font-weight: 500;
 }
+.pricing .pricing-options .price .extras {
+  margin-bottom: 10px;
+}
 .pricing .pricing-options .simple {
   background-color: var(--gray-color);
   max-width: 400px;
@@ -302,6 +305,15 @@ body {
   background-color: var(--black-color);
   color: var(--white-color);
   max-width: 400px;
+}
+.pricing .attributes {
+  line-height: 160%;
+}
+.pricing .attributes p {
+  margin-bottom: 10px;
+}
+.pricing .attributes li {
+  list-style-type: none;
 }
 
 .nav-toggle-btn {
