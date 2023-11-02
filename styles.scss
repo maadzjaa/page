@@ -312,7 +312,7 @@ body {
 		li::marker {
 			content: 'X';
 			font-size: 1.2rem;
-			padding-right: 5px;
+			padding-right: 10px;
 		}
 	}
 	.get-started {
@@ -328,6 +328,27 @@ body {
 		background-color: #2b7cf6;
 		cursor: pointer;
 		transition: all 0.2s linear;
+	}
+
+	.features {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+
+		p {
+			margin-top: 48px;
+		}
+
+		a {
+			line-height: 150%;
+			font-weight: 600;
+		}
+
+		a:hover {
+			color: var(--blue-color);
+			cursor: pointer;
+		}
 	}
 }
 .nav-toggle-btn {

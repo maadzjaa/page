@@ -318,7 +318,7 @@ body {
 .pricing .attributes li::marker {
   content: "X";
   font-size: 1.2rem;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .pricing .get-started {
   background-color: var(--blue-color);
@@ -333,6 +333,30 @@ body {
   cursor: pointer;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+.pricing .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.pricing .features p {
+  margin-top: 48px;
+}
+.pricing .features a {
+  line-height: 150%;
+  font-weight: 600;
+}
+.pricing .features a:hover {
+  color: var(--blue-color);
+  cursor: pointer;
 }
 
 .nav-toggle-btn {
