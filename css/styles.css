@@ -359,6 +359,16 @@ body {
   cursor: pointer;
 }
 
+footer {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+footer .logo-footer {
+  padding-top: 109px;
+  padding-left: 78px;
+  padding-bottom: 42px;
+}
+
 .nav-toggle-btn {
   display: none;
 }
