@@ -124,11 +124,20 @@ body {
 .video {
 	background-color: var(--black-color);
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 
-	h2 {
+	&-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 1200px;
+		width: 100%;
+		border-bottom: 1px solid var(--gray-color);
+		padding: var(--section-padding);
+	}
+
+	&-header {
 		background-color: var(--black-color);
 		color: var(--white-color);
 		font-size: 4.8rem;
@@ -141,26 +150,20 @@ body {
 		max-width: 55vw;
 	}
 
-	.video-start {
+	&-start {
 		background-color: var(--blue-color);
 		color: #fff;
 		padding: 20px 40px;
 		border-radius: 16px;
 		margin-top: 64px;
 		margin-bottom: 96px;
-	}
-	.video-start:hover {
-		background-color: var(--gray-color);
-		color: black;
-		cursor: pointer;
-		transition: all 0.2s linear;
-	}
 
-	.gray-line {
-		background-color: gray;
-		width: 90vw;
-		height: 0.005vh;
-		border-radius: 15px;
+		&:hover {
+			background-color: var(--gray-color);
+			color: black;
+			cursor: pointer;
+			transition: all 0.2s linear;
+		}
 	}
 }
 
@@ -181,7 +184,7 @@ body {
 		display: flex;
 		justify-content: flex-start;
 		align-items: baseline;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		gap: 24px;
 		padding-top: 65px;
 		padding-bottom: 96px;
@@ -360,6 +363,10 @@ footer {
 		padding-top: 109px;
 		padding-left: 78px;
 		padding-bottom: 42px;
+	}
+
+	.newsletter {
+		background-color: var(--gray-color);
 	}
 }
 .nav-toggle-btn {
