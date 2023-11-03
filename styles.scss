@@ -56,18 +56,16 @@ body {
 	}
 }
 
-.hero-section {
-	min-height: calc(100vh - 75px);
+.hero {
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 72px auto 100px;
 	background-image: url(/images/background.png);
 	background-size: contain;
-	background-position: 50% 90%;
+	background-position: bottom center;
 	background-repeat: no-repeat;
-	margin-top: 72px;
-	padding: var(--section-padding);
+	padding: var(--section-padding) 300px;
 
-	.hero-text {
+	&-text {
 		h1 {
 			font-size: 6.4rem;
 			max-width: 50vw;
@@ -85,38 +83,38 @@ body {
 		}
 	}
 
-	.hero-btns {
+	&-btns {
 		display: flex;
 		margin-top: 30px;
 		max-width: 40vw;
 		font-weight: 500;
 
-		.start {
+		&-start {
 			background-color: var(--blue-color);
 			color: #fff;
 			padding: 20px 40px;
 			margin-right: 20px;
 			border-radius: 10px;
+
+			&:hover {
+				background-color: var(--gray-color);
+				color: black;
+				cursor: pointer;
+				transition: all 0.2s linear;
+			}
 		}
 
-		.start:hover {
-			background-color: var(--gray-color);
-			color: black;
-			cursor: pointer;
-			transition: all 0.2s linear;
-		}
-
-		.demo {
+		&-demo {
 			background-color: var(--gray-color);
 			padding: 20px 40px;
 			border-radius: 10px;
-		}
 
-		.demo:hover {
-			background-color: var(--blue-color);
-			color: white;
-			cursor: pointer;
-			transition: all 0.2s linear;
+			&:hover {
+				background-color: var(--blue-color);
+				color: white;
+				cursor: pointer;
+				transition: all 0.2s linear;
+			}
 		}
 	}
 }

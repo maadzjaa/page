@@ -63,32 +63,30 @@ body {
   transition: all 0.2s linear;
 }
 
-.hero-section {
-  min-height: calc(100vh - 75px);
+.hero {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 72px auto 100px;
   background-image: url(/images/background.png);
   background-size: contain;
-  background-position: 50% 90%;
+  background-position: bottom center;
   background-repeat: no-repeat;
-  margin-top: 72px;
-  padding: var(--section-padding);
+  padding: var(--section-padding) 300px;
 }
-.hero-section .hero-text h1 {
+.hero-text h1 {
   font-size: 6.4rem;
   max-width: 50vw;
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -2px;
 }
-.hero-section .hero-text p {
+.hero-text p {
   font-size: 2rem;
   line-height: 160%;
   max-width: 40vw;
   margin-top: 24px;
   margin-bottom: 40px;
 }
-.hero-section .hero-btns {
+.hero-btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,26 +94,26 @@ body {
   max-width: 40vw;
   font-weight: 500;
 }
-.hero-section .hero-btns .start {
+.hero-btns-start {
   background-color: var(--blue-color);
   color: #fff;
   padding: 20px 40px;
   margin-right: 20px;
   border-radius: 10px;
 }
-.hero-section .hero-btns .start:hover {
+.hero-btns-start:hover {
   background-color: var(--gray-color);
   color: black;
   cursor: pointer;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-.hero-section .hero-btns .demo {
+.hero-btns-demo {
   background-color: var(--gray-color);
   padding: 20px 40px;
   border-radius: 10px;
 }
-.hero-section .hero-btns .demo:hover {
+.hero-btns-demo:hover {
   background-color: var(--blue-color);
   color: white;
   cursor: pointer;
