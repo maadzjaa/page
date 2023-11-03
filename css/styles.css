@@ -30,10 +30,10 @@ body {
   margin: 0 auto;
   padding: var(--section-padding);
 }
-.nav .nav-logo {
+.nav-logo {
   padding: 20px 0;
 }
-.nav .nav-list {
+.nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,18 +44,18 @@ body {
   list-style-type: none;
   padding: 20px 0;
 }
-.nav .log-in {
-  background-color: var(--gray-color);
-  padding: 10px 20px;
-  border-radius: 10px;
-}
-.nav a:hover {
+.nav-list-item:hover {
   color: var(--blue-color);
   cursor: pointer;
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
 }
-.nav .log-in:hover {
+.nav-log-in {
+  background-color: var(--gray-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.nav-log-in:hover {
   background-color: var(--blue-color);
   color: var(--gray-color);
   cursor: pointer;
