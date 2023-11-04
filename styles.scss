@@ -105,6 +105,8 @@ body {
 		}
 
 		&-demo {
+			display: flex;
+			gap: 7px;
 			background-color: var(--gray-color);
 			padding: 20px 40px;
 			border-radius: 10px;
@@ -114,6 +116,11 @@ body {
 				color: white;
 				cursor: pointer;
 				transition: all 0.2s linear;
+
+				.hero-btns-demo-icon {
+					filter: brightness(0) invert(1);
+					transition: all 0.2s linear;
+				}
 			}
 		}
 	}
@@ -182,7 +189,7 @@ body {
 		display: flex;
 		justify-content: flex-start;
 		align-items: baseline;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		gap: 24px;
 		padding-top: 65px;
 		padding-bottom: 96px;
@@ -240,7 +247,7 @@ body {
 
 		.gray-line {
 			background-color: gray;
-			height: 0.005vh;
+			height: 0.1vh;
 			border-radius: 15px;
 			margin-bottom: 32px;
 		}
