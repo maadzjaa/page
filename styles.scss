@@ -363,6 +363,7 @@ body {
 .footer {
 	background-color: var(--black-color);
 	color: var(--white-color);
+	padding-bottom: 40px;
 
 	&-logo {
 		padding-top: 109px;
@@ -431,6 +432,12 @@ body {
 			i {
 				color: #656667;
 			}
+		}
+
+		.arr {
+			color: #bcc2c3;
+			font-size: 1.4rem;
+			line-height: 150%;
 		}
 	}
 }
