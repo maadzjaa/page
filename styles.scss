@@ -14,6 +14,7 @@ body {
 	--section-padding: 0 20px;
 	--black-color: #131316;
 	--white-color: #ffffff;
+	--gray-footer-color: #bcc2c3;
 }
 
 .nav {
@@ -315,12 +316,12 @@ body {
 		}
 		li {
 			list-style-type: none;
-		}
+			margin-bottom: 12px;
 
-		li::marker {
-			content: 'X';
-			font-size: 1.2rem;
-			padding-right: 10px;
+			i {
+				width: 14px;
+				height: 8.4px;
+			}
 		}
 	}
 	.get-started {
@@ -438,6 +439,42 @@ body {
 			color: #bcc2c3;
 			font-size: 1.4rem;
 			line-height: 150%;
+		}
+	}
+
+	&-right {
+		display: flex;
+		gap: 100px;
+		padding-left: 130px;
+
+		@mixin footer-links {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			min-width: 133px;
+			min-height: 106px;
+
+			a {
+				text-decoration: none;
+				color: var(--gray-footer-color);
+			}
+
+			a:hover {
+				color: var(--white-color);
+				transition: color 0.5s linear;
+			}
+		}
+
+		.company {
+			@include footer-links();
+		}
+
+		.resources {
+			@include footer-links();
+		}
+
+		.contact {
+			@include footer-links();
 		}
 	}
 }

@@ -14,6 +14,7 @@ body {
   --section-padding: 0 20px;
   --black-color: #131316;
   --white-color: #ffffff;
+  --gray-footer-color: #bcc2c3;
 }
 
 .nav {
@@ -328,11 +329,11 @@ body {
 }
 .pricing .attributes li {
   list-style-type: none;
+  margin-bottom: 12px;
 }
-.pricing .attributes li::marker {
-  content: "X";
-  font-size: 1.2rem;
-  padding-right: 10px;
+.pricing .attributes li i {
+  width: 14px;
+  height: 8.4px;
 }
 .pricing .get-started {
   background-color: var(--blue-color);
@@ -454,6 +455,76 @@ body {
   color: #bcc2c3;
   font-size: 1.4rem;
   line-height: 150%;
+}
+.footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  padding-left: 130px;
+}
+.footer-right .company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  min-width: 133px;
+  min-height: 106px;
+}
+.footer-right .company a {
+  text-decoration: none;
+  color: var(--gray-footer-color);
+}
+.footer-right .company a:hover {
+  color: var(--white-color);
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+.footer-right .resources {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  min-width: 133px;
+  min-height: 106px;
+}
+.footer-right .resources a {
+  text-decoration: none;
+  color: var(--gray-footer-color);
+}
+.footer-right .resources a:hover {
+  color: var(--white-color);
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+.footer-right .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  min-width: 133px;
+  min-height: 106px;
+}
+.footer-right .contact a {
+  text-decoration: none;
+  color: var(--gray-footer-color);
+}
+.footer-right .contact a:hover {
+  color: var(--white-color);
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 
 .nav-toggle-btn {
