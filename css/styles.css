@@ -362,6 +362,13 @@ body {
           align-items: center;
   gap: 16px;
 }
+.pricing .features .gray-line {
+  background-color: var(--gray-footer-color);
+  height: 0.1vh;
+  width: 85vw;
+  margin: 72px auto 0;
+  border-radius: 15px;
+}
 .pricing .features p {
   margin-top: 48px;
 }
@@ -372,6 +379,10 @@ body {
 .pricing .features a:hover {
   color: var(--blue-color);
   cursor: pointer;
+}
+
+.faq {
+  background-color: var(--white-color);
 }
 
 .footer {

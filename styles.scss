@@ -345,6 +345,14 @@ body {
 		align-items: center;
 		gap: 16px;
 
+		.gray-line {
+			background-color: var(--gray-footer-color);
+			height: 0.1vh;
+			width: 85vw;
+			margin: 72px auto 0;
+			border-radius: 15px;
+		}
+
 		p {
 			margin-top: 48px;
 		}
@@ -359,6 +367,10 @@ body {
 			cursor: pointer;
 		}
 	}
+}
+
+.faq {
+	background-color: var(--white-color);
 }
 
 .footer {
