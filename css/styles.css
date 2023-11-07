@@ -474,10 +474,9 @@ body {
   max-width: 90%;
 }
 .faq .gray-line {
-  background-color: var(--gray-footer-color);
+  background-color: #dedede;
   height: 0.1vh;
   border-radius: 15px;
-  margin-bottom: 32px;
 }
 
 .footer {
