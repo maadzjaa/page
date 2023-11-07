@@ -438,6 +438,7 @@ body {
 		i:hover {
 			color: var(--blue-color);
 			cursor: pointer;
+			transition: color 0.2s linear;
 		}
 	}
 

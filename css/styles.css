@@ -463,6 +463,8 @@ body {
 .faq .faq-question i:hover {
   color: var(--blue-color);
   cursor: pointer;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 .faq .faq-answer {
   display: -webkit-box;
