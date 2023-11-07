@@ -17,6 +17,13 @@ body {
 	--gray-footer-color: #bcc2c3;
 }
 
+@mixin blue-hover {
+	background-color: var(--blue-color);
+	color: white;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+
 .nav {
 	display: flex;
 	max-width: 1200px;
@@ -113,10 +120,7 @@ body {
 			border-radius: 10px;
 
 			&:hover {
-				background-color: var(--blue-color);
-				color: white;
-				cursor: pointer;
-				transition: all 0.2s linear;
+				@include blue-hover();
 
 				.hero-btns-demo-icon {
 					filter: brightness(0) invert(1);
@@ -371,6 +375,44 @@ body {
 
 .faq {
 	background-color: var(--white-color);
+
+	&-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		h2 {
+			font-size: 4.8rem;
+			line-height: 120%;
+			letter-spacing: -3px;
+			font-weight: 500;
+			margin-bottom: 40px;
+		}
+	}
+
+	&-btns {
+		display: flex;
+		justify-content: space-evenly;
+		gap: 10px;
+		background-color: var(--gray-color);
+		padding: 10px;
+		border-radius: 8px;
+		margin-bottom: 100px;
+
+		.faq-btn {
+			padding: 5px 15px;
+			background-color: var(--gray-color);
+			border: none;
+			border-radius: 8px;
+
+			&:hover {
+				@include blue-hover();
+			}
+		}
+	}
+
+	// &-questions {
+	// }
 }
 
 .footer {
