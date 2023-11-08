@@ -381,13 +381,17 @@ body {
 		flex-direction: column;
 		align-items: center;
 
-		h2 {
+		.faq-heading {
 			font-size: 4.8rem;
 			line-height: 120%;
 			letter-spacing: -3px;
 			font-weight: 500;
 			margin: 0 auto 40px;
 			text-align: center;
+		}
+
+		.faq-heading-media {
+			display: none;
 		}
 	}
 
@@ -571,6 +575,14 @@ body {
 			@include footer-links();
 		}
 	}
+
+	.socials-media {
+		display: none;
+	}
+
+	.arr-media {
+		display: none;
+	}
 }
 .nav-toggle-btn {
 	display: none;
@@ -708,6 +720,80 @@ body {
 
 			.name {
 				font-size: 1.6rem;
+			}
+		}
+	}
+
+	.faq {
+		&-container {
+			.faq-heading {
+				display: none;
+			}
+		}
+		.faq-heading-media {
+			display: block;
+			font-size: 4.8rem;
+			line-height: 120%;
+			letter-spacing: -3px;
+			font-weight: 500;
+			margin: 0 auto 40px;
+			text-align: center;
+		}
+	}
+	.footer {
+		padding: var(--section-padding);
+		&-container {
+			display: flex;
+			flex-direction: column;
+		}
+		&-logo {
+			padding: 64px 0 24px;
+		}
+
+		&-left {
+			padding-left: 0;
+
+			.newsletter {
+				max-width: 343px;
+				height: auto;
+				margin-bottom: 40px;
+
+				&-subscription-email {
+					width: auto;
+				}
+			}
+
+			.socials {
+				display: none;
+			}
+
+			.arr {
+				display: none;
+			}
+		}
+
+		&-right {
+			padding-left: 0;
+			gap: 50px;
+			flex-wrap: wrap;
+		}
+
+		.socials-media {
+			display: flex;
+			gap: 16px;
+			margin-bottom: 24px;
+			i {
+				font-size: 24px;
+				color: #656667;
+			}
+		}
+
+		.arr-media {
+			p {
+				color: #bcc2c3;
+				font-size: 1.4rem;
+				line-height: 150%;
+				padding-bottom: 24px;
 			}
 		}
 	}

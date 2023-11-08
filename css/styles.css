@@ -396,13 +396,16 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.faq-container h2 {
+.faq-container .faq-heading {
   font-size: 4.8rem;
   line-height: 120%;
   letter-spacing: -3px;
   font-weight: 500;
   margin: 0 auto 40px;
   text-align: center;
+}
+.faq-container .faq-heading-media {
+  display: none;
 }
 .faq-btns {
   display: -webkit-box;
@@ -633,6 +636,12 @@ body {
   -webkit-transition: color 0.5s linear;
   transition: color 0.5s linear;
 }
+.footer .socials-media {
+  display: none;
+}
+.footer .arr-media {
+  display: none;
+}
 
 .nav-toggle-btn {
   display: none;
@@ -783,5 +792,72 @@ body {
   }
   .testimonials .reviews .name {
     font-size: 1.6rem;
+  }
+  .faq-container .faq-heading {
+    display: none;
+  }
+  .faq .faq-heading-media {
+    display: block;
+    font-size: 4.8rem;
+    line-height: 120%;
+    letter-spacing: -3px;
+    font-weight: 500;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+  .footer {
+    padding: var(--section-padding);
+  }
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-logo {
+    padding: 64px 0 24px;
+  }
+  .footer-left {
+    padding-left: 0;
+  }
+  .footer-left .newsletter {
+    max-width: 343px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .footer-left .newsletter-subscription-email {
+    width: auto;
+  }
+  .footer-left .socials {
+    display: none;
+  }
+  .footer-left .arr {
+    display: none;
+  }
+  .footer-right {
+    padding-left: 0;
+    gap: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer .socials-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .footer .socials-media i {
+    font-size: 24px;
+    color: #656667;
+  }
+  .footer .arr-media p {
+    color: #bcc2c3;
+    font-size: 1.4rem;
+    line-height: 150%;
+    padding-bottom: 24px;
   }
 }/*# sourceMappingURL=styles.css.map */
