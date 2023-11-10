@@ -724,6 +724,13 @@ body {
 		}
 	}
 
+	.pricing {
+		.pricing-options {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
 	.faq {
 		&-container {
 			.faq-heading {
