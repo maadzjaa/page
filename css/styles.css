@@ -802,6 +802,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .pricing .features p {
+    text-align: center;
+  }
   .faq-container .faq-heading {
     display: none;
   }
@@ -813,6 +816,9 @@ body {
     font-weight: 500;
     margin: 0 auto 40px;
     text-align: center;
+  }
+  .faq .faq-question {
+    gap: 15px;
   }
   .footer {
     padding: var(--section-padding);

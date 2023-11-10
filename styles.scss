@@ -729,6 +729,12 @@ body {
 			display: flex;
 			flex-direction: column;
 		}
+
+		.features {
+			p {
+				text-align: center;
+			}
+		}
 	}
 
 	.faq {
@@ -745,6 +751,10 @@ body {
 			font-weight: 500;
 			margin: 0 auto 40px;
 			text-align: center;
+		}
+
+		.faq-question {
+			gap: 15px;
 		}
 	}
 	.footer {
