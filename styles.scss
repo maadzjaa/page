@@ -623,7 +623,7 @@ body {
 		background-image: url(/images/background-mobile.png);
 		background-size: auto;
 		background-position: 50% 90%;
-		margin-top: 56px;
+		margin: 56px 0 0;
 		padding-bottom: 20px;
 
 		&-text {
@@ -651,30 +651,31 @@ body {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			gap: 19px;
 			min-width: 90vw;
 			border-radius: 16px;
 			font-weight: 500;
 			line-height: 150%;
 			font-size: 1.6rem;
 
-			.start {
-				width: 80vw;
+			.hero-btns-start {
+				min-width: 343px;
 				text-align: center;
 				margin-right: 0;
+				border-radius: 16px;
 			}
 
-			.demo {
-				width: 80vw;
-				text-align: center;
-				margin-top: 19px;
-				margin-bottom: 59px;
+			.hero-btns-demo {
+				min-width: 343px;
+				justify-content: center;
+				border-radius: 16px;
 			}
 		}
 	}
 
 	.video {
 		h2 {
-			max-width: 80vw;
+			max-width: 85vw;
 			font-size: 3.2rem;
 			padding-top: 64px;
 		}
@@ -682,6 +683,10 @@ body {
 		.video-play {
 			max-width: 90vw;
 			border-radius: 16px;
+		}
+
+		.video-wrapper {
+			padding: 0;
 		}
 
 		.video-start {
