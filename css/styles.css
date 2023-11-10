@@ -854,6 +854,9 @@ body {
     font-size: 24px;
     color: #656667;
   }
+  .footer .arr-media {
+    display: block;
+  }
   .footer .arr-media p {
     color: #bcc2c3;
     font-size: 1.4rem;
