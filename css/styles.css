@@ -842,6 +842,7 @@ body {
     text-align: center;
   }
   .faq .faq-question {
+    padding: 0 20px 64px;
     gap: 15px;
   }
   .footer {
