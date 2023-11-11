@@ -814,6 +814,9 @@ body {
   .testimonials .reviews .name {
     font-size: 1.6rem;
   }
+  .pricing {
+    padding: 50px 20px;
+  }
   .pricing .pricing-options {
     display: -webkit-box;
     display: -ms-flexbox;
