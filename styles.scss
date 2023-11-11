@@ -599,6 +599,16 @@ body {
 		border-radius: 12px;
 		border: none;
 		z-index: 1;
+		.black-lines {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+			.black-line {
+				width: 20px;
+				height: 2.5px;
+				background-color: var(--black-color);
+			}
+		}
 	}
 	.nav {
 		.nav-list {
