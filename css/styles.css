@@ -693,6 +693,8 @@ body {
     padding: 100px 20px;
     -webkit-transform: translateX(110%);
             transform: translateX(110%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .nav .nav-list.open {
     -webkit-transform: translateX(0);
