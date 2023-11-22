@@ -694,6 +694,10 @@ body {
     -webkit-transform: translateX(110%);
             transform: translateX(110%);
   }
+  .nav .nav-list.open {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
   .nav .log-in {
     background-color: var(--blue-color);
     color: #f5f5f5;
