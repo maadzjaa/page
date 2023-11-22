@@ -259,7 +259,7 @@ body {
 		}
 
 		.price {
-			padding: 56px;
+			padding: 24px;
 			border-radius: 16px;
 
 			h3 {
@@ -630,12 +630,11 @@ body {
 	}
 
 	.hero {
-		min-height: calc(140vh - 88px);
 		background-image: url(/images/background-mobile.png);
 		background-size: auto;
-		background-position: 50% 90%;
-		margin: 56px 0 0;
-		padding-bottom: 20px;
+		margin: 56px 0;
+		padding: 0 20px 450px;
+		width: 100%;
 
 		&-text {
 			display: flex;
@@ -663,21 +662,21 @@ body {
 			justify-content: center;
 			align-items: center;
 			gap: 19px;
-			min-width: 90vw;
+			max-width: unset;
 			border-radius: 16px;
 			font-weight: 500;
 			line-height: 150%;
 			font-size: 1.6rem;
 
-			.hero-btns-start {
-				min-width: 343px;
+			&-start {
+				width: 100%;
 				text-align: center;
 				margin-right: 0;
 				border-radius: 16px;
 			}
 
-			.hero-btns-demo {
-				min-width: 343px;
+			&-demo {
+				width: 100%;
 				justify-content: center;
 				border-radius: 16px;
 			}
@@ -685,22 +684,23 @@ body {
 	}
 
 	.video {
-		h2 {
-			max-width: 85vw;
+		&-header {
+			padding: 0 20px;
+			max-width: unset;
 			font-size: 3.2rem;
 			padding-top: 64px;
 		}
 
-		.video-play {
+		&-play {
 			max-width: 90vw;
 			border-radius: 16px;
 		}
 
-		.video-wrapper {
+		&-wrapper {
 			padding: 0;
 		}
 
-		.video-start {
+		&-start {
 			padding: 20px 0px;
 			width: 90vw;
 			text-align: center;
@@ -724,7 +724,7 @@ body {
 			gap: 32px;
 
 			.testimonial {
-				min-width: 343px;
+				min-width: unset;
 				min-height: 208px;
 			}
 
@@ -749,6 +749,10 @@ body {
 		}
 
 		.features {
+			.gray-line {
+				margin: 20px 0 0;
+			}
+
 			p {
 				text-align: center;
 			}
@@ -794,8 +798,14 @@ body {
 				height: auto;
 				margin-bottom: 40px;
 
+				&-subscription {
+					gap: 10px;
+					align-items: baseline;
+				}
+
 				&-subscription-email {
 					width: auto;
+					padding: 15px 0;
 				}
 			}
 
