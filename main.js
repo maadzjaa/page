@@ -11,9 +11,10 @@ let isDown = false;
 let startX;
 let scrollLeft;
 
-slider.addEventListener('mousedown', () => {
+slider.addEventListener('mousedown', (e) => {
 	isDown = true;
 	slider.classList.add('active');
+	console.log(e);
 });
 
 slider.addEventListener('mouseleave', () => {
