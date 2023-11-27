@@ -206,6 +206,10 @@ body {
   padding-top: 96px;
   font-weight: 500;
 }
+.testimonials .reviews.active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
 .testimonials .reviews {
   display: -webkit-box;
   display: -ms-flexbox;

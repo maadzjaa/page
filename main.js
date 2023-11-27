@@ -14,7 +14,8 @@ let scrollLeft;
 slider.addEventListener('mousedown', (e) => {
 	isDown = true;
 	slider.classList.add('active');
-	console.log(e);
+	startX = e.pageX - slider.offsetLeft;
+	scrollLeft = slider.scrollLeft;
 });
 
 slider.addEventListener('mouseleave', () => {
@@ -27,7 +28,10 @@ slider.addEventListener('mouseup', () => {
 	slider.classList.remove('active');
 });
 
-slider.addEventListener('mousemove', () => {
+slider.addEventListener('mousemove', (e) => {
 	if (!isDown) return;
-	console.count(isDown);
+	e.preventDefault();
+	const x = e.pageX - slider.offsetLeft;
+	const walk = (x - startX) * 3;
+	slider.scrollLeft = scrollLeft - walk;
 });

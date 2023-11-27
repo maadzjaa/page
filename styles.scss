@@ -197,6 +197,10 @@ body {
 		font-weight: 500;
 	}
 
+	.reviews.active {
+		cursor: grabbing;
+	}
+
 	.reviews {
 		display: flex;
 		justify-content: flex-start;
