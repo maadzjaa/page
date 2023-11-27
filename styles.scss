@@ -1,5 +1,6 @@
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -49,6 +50,11 @@ body {
 		align-items: center;
 		list-style-type: none;
 		padding: 20px 0;
+
+		&-item {
+			text-decoration: none;
+			color: var(--black-color);
+		}
 	}
 
 	&-list-item:hover {

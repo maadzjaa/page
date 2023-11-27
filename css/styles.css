@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -44,6 +45,10 @@ body {
           align-items: center;
   list-style-type: none;
   padding: 20px 0;
+}
+.nav-list-item {
+  text-decoration: none;
+  color: var(--black-color);
 }
 .nav-list-item:hover {
   color: var(--blue-color);
