@@ -1,6 +1,7 @@
 @use './mixins.scss';
 @import './reset.scss';
 @import './hero.scss';
+@import './nav.scss';
 
 html {
 	font-size: 62.5%;
@@ -575,7 +576,6 @@ body {
 .nav-toggle-btn {
 	display: none;
 }
-
 
 @media screen and (max-width: 580px) {
 	.nav-toggle-btn {
