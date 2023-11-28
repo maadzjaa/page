@@ -1,3 +1,5 @@
+import './scss/styles.scss';
+
 const navButton = document.querySelector('.nav-toggle-btn');
 
 const navList = document.querySelector('.nav-list');
