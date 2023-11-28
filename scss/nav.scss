@@ -1,0 +1,44 @@
+.nav {
+	display: flex;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: var(--section-padding);
+
+	&-logo {
+		padding: 20px 0;
+	}
+
+	&-list {
+		display: flex;
+		gap: 40px;
+		align-items: center;
+		list-style-type: none;
+		padding: 20px 0;
+
+		&-item {
+			text-decoration: none;
+			color: var(--black-color);
+		}
+	}
+
+	&-list-item:hover {
+		color: var(--blue-color);
+		cursor: pointer;
+		transition: color 0.2s linear;
+	}
+
+	&-log-in {
+		background-color: var(--gray-color);
+		padding: 10px 20px;
+		border-radius: 10px;
+
+		&:hover {
+			background-color: var(--blue-color);
+			color: var(--gray-color);
+			cursor: pointer;
+			transition: all 0.2s linear;
+		}
+	}
+}

@@ -656,6 +656,15 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 1060px) {
+  .hero-text h1,
+  .hero-text p {
+    max-width: 80vw;
+  }
+  .hero-btns {
+    max-width: unset;
+  }
+}
 @media screen and (max-width: 580px) {
   .nav-toggle-btn {
     display: -webkit-box;
