@@ -51,3 +51,36 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 580px) {
+	.testimonials {
+		padding: var(--section-padding);
+
+		h2 {
+			max-width: 80vw;
+			font-size: 3.2rem;
+			padding-top: 64px;
+		}
+
+		.reviews {
+			flex-direction: column;
+			flex-wrap: wrap;
+			gap: 32px;
+
+			.testimonial {
+				min-width: unset;
+				min-height: 208px;
+			}
+
+			.review {
+				font-style: italic;
+				font-size: 1.6rem;
+				margin-bottom: 32px;
+			}
+
+			.name {
+				font-size: 1.6rem;
+			}
+		}
+	}
+}

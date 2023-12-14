@@ -84,4 +84,26 @@
 	}
 }
 
-@media screen and (max-width: 580px) {}
+@media screen and (max-width: 580px) {
+	.faq {
+		&-container {
+			.faq-heading {
+				display: none;
+			}
+		}
+		.faq-heading-media {
+			display: block;
+			font-size: 4.8rem;
+			line-height: 120%;
+			letter-spacing: -3px;
+			font-weight: 500;
+			margin: 0 auto 40px;
+			text-align: center;
+		}
+
+		.faq-question {
+			padding: 0 20px 64px;
+			gap: 15px;
+		}
+	}
+}

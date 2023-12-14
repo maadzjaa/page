@@ -149,4 +149,22 @@
 	}
 }
 @media screen and (max-width: 580px) {
+	.pricing {
+		padding: 50px 20px;
+
+		.pricing-options {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.features {
+			.gray-line {
+				margin: 20px 0 0;
+			}
+
+			p {
+				text-align: center;
+			}
+		}
+	}
 }
