@@ -1,0 +1,150 @@
+.pricing {
+	background-color: var(--white-color);
+	padding: 72px 20px;
+
+	.pricing-intro {
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			font-size: 4.8rem;
+			line-height: 120%;
+			letter-spacing: -3px;
+			font-weight: 400;
+			margin-bottom: 24px;
+		}
+
+		p {
+			line-height: 160%;
+		}
+	}
+
+	.pricing-options {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 24px;
+		padding-top: 64px;
+
+		.gray-line {
+			background-color: gray;
+			height: 0.1vh;
+			border-radius: 15px;
+			margin-bottom: 32px;
+		}
+
+		.price {
+			padding: 24px;
+			border-radius: 16px;
+
+			h3 {
+				font-size: 3.6rem;
+				line-height: 120%;
+				letter-spacing: -1px;
+				margin-bottom: 16px;
+			}
+
+			p {
+				line-height: 160%;
+				margin-bottom: 32px;
+			}
+
+			.prices {
+				display: flex;
+				align-items: baseline;
+				gap: 12px;
+
+				h3 {
+					font-size: 3.6rem;
+					line-height: 120%;
+					letter-spacing: -1%;
+				}
+
+				p {
+					font-size: 1.4rem;
+					line-height: 120%;
+					letter-spacing: -1%;
+				}
+
+				h4 {
+					font-weight: 500;
+				}
+			}
+
+			.extras {
+				margin-bottom: 10px;
+			}
+		}
+
+		.simple {
+			background-color: var(--gray-color);
+			max-width: 400px;
+		}
+
+		.premium {
+			background-color: var(--black-color);
+			color: var(--white-color);
+			max-width: 400px;
+		}
+	}
+
+	.attributes {
+		line-height: 160%;
+
+		p {
+			margin-bottom: 10px;
+		}
+		li {
+			list-style-type: none;
+			margin-bottom: 12px;
+
+			i {
+				width: 14px;
+				height: 8.4px;
+			}
+		}
+	}
+	.get-started {
+		background-color: var(--blue-color);
+		color: #fff;
+		text-align: center;
+		padding: 20px 0px;
+		border-radius: 16px;
+		margin-top: 32px;
+	}
+
+	.get-started:hover {
+		background-color: #2b7cf6;
+		cursor: pointer;
+		transition: all 0.2s linear;
+	}
+
+	.features {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+
+		.gray-line {
+			background-color: var(--gray-footer-color);
+			height: 0.1vh;
+			width: 85vw;
+			margin: 72px auto 0;
+			border-radius: 15px;
+		}
+
+		p {
+			margin-top: 48px;
+		}
+
+		a {
+			line-height: 150%;
+			font-weight: 600;
+		}
+
+		a:hover {
+			color: var(--blue-color);
+			cursor: pointer;
+		}
+	}
+}
