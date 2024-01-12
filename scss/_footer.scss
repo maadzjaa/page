@@ -108,6 +108,24 @@
 	}
 }
 
+@media screen and (max-width: 840px) {
+	.footer {
+		&-logo {
+			padding-left: 30px;
+		}
+
+		&-left {
+			padding-left: 30px;
+		}
+
+		&-right {
+			padding: 0 30px;
+			gap: 60px;
+			overflow: hidden;
+		}
+	}
+}
+
 @media screen and (max-width: 580px) {
 	.footer {
 		padding: var(--section-padding);
@@ -171,24 +189,6 @@
 				line-height: 150%;
 				padding-bottom: 24px;
 			}
-		}
-	}
-}
-
-@media screen and (max-width: 840px) {
-	.footer {
-		&-logo {
-			padding-left: 30px;
-		}
-
-		&-left {
-			padding-left: 30px;
-		}
-
-		&-right {
-			padding: 0 30px;
-			gap: 60px;
-			overflow: hidden;
 		}
 	}
 }
