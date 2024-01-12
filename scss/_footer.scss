@@ -1,4 +1,5 @@
 .footer {
+	margin: 0 auto;
 	background-color: var(--black-color);
 	color: var(--white-color);
 	padding-bottom: 40px;
@@ -81,6 +82,7 @@
 
 	&-right {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 100px;
 		padding-left: 130px;
 
@@ -169,6 +171,24 @@
 				line-height: 150%;
 				padding-bottom: 24px;
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.footer {
+		&-logo {
+			padding-left: 30px;
+		}
+
+		&-left {
+			padding-left: 30px;
+		}
+
+		&-right {
+			padding: 0 30px;
+			gap: 60px;
+			overflow: hidden;
 		}
 	}
 }
